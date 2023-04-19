@@ -2,9 +2,9 @@ var express = require('express');
 var router = express.Router();
 var middleware = require('../../../middleware/validation');
 var auth = require('./auth_model');
-var multer = require('multer');
-var path = require('path');
-const { request } = require('http');
+// var multer = require('multer');
+// var path = require('path');
+// const { request } = require('http');
 
 router.post('/signup', function (req, res) {
     var request = req.body;
